@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+/* Custom Theme Colors */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #0f2027, #203a43, #2c5364); /* Gradient Navbar */
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* ===== FORM STYLING ===== */
+.heading{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+.card.shadow-lg.p-4 {
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card.shadow-lg.p-4:hover {
+  transform: translateY(-5px);
+}
+
+.card .form-control {
+  border: 2px solid #0d6efd;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.card .form-control:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 86, 179, 0.4);
+}
+
+.card .btn-primary {
+  background-color: #0d6efd;
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.card .btn-primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* ===== FOOTER STYLING ===== */
+footer {
+  background-color: lightgray;
+  color: black;
+}
+
+
+footer h6,
+footer p,
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .bg-primary {
+  background-color: #203a43 !important;
+  color: #fff;
+}
+
+footer .text-dark {
+  color: #ccc !important;
+}
+
+footer .fab {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+footer .fab:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
+
+
+
+.error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.85em;
+  margin-bottom: 10px;
+}
+
+.srfi-form {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  width: 450px;
+  margin-top: 35px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+  
+
+
+}
+
+.srfi-form h1 {
+  text-align: center;
+  justify-content:center ;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.srfi-form label {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  display: block;
+  font-weight: 500;
+  color: #333;
+}
+
+.srfi-form input {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.srfi-form input.error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.85em;
+  margin-bottom: 10px;
+}
+
+.srfi-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.srfi-form button:hover {
+  background-color: deepskyblue;
+}
+
+  .error-message {
+    color: red;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  .input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 6px;
+    width: 300px;
+  }
+
+  .button {
+    padding: 8px 20px;
+  }
+
+.aboutbg{
+    width: 100%;
+    height: 75vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.300),rgba(0, 0, 0, 0.300)) , url(./assets/aboutimages.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+
+.contactbg{
+    width: 100%;
+    height: 75vh;
+    background: linear-gradient(rgba(0,0,0,0.300),rgba(0,0,0,0.300)),url(./assets/contact\ page.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.view-project h1 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.card{
+  margin: 15px;
+  padding: 15px;
+}
+
+.badge {
+  font-size: 0.85rem;
+  padding: 0.4em 0.6em;
+  border-radius: 0.3rem;
+}
